@@ -56,7 +56,7 @@ function Work() {
                                 <h3 className='projectTittle'>{e.projectTittle}</h3>
                                 <p className='projectDesc'>{e.desc}</p>
                                 <div className='cardBtn'>
-                                <a style={{textDecoration:'none',color:'black',fontSize:'1.5rem'}} href={e.domain}>VISIT</a>
+                                <a target='_blank' style={{textDecoration:'none',color:'black',fontSize:'1.5rem'}} href={e.domain}>VISIT</a>
                                 </div>
                             </div>
                         </div>

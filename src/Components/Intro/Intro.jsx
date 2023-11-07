@@ -22,7 +22,7 @@ function Intro() {
                 </span>
                 <p className="introPara">I am a skilled web designer with experience in
                     creating<br /> visual appealing and user friendly websites.</p>
-               <a href={resume} download="Resume"
+               <a href={resume} target='_blank' download="Resume"
                  className='hireBtn'>Hire-Me</a>
             </div>
             <img src={hackerimg} className='hackerBg' />
