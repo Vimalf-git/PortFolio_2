@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0% 1.25rem;
+    position: relative;
+    /* background-color: aqua; */
+}
+.hackerBg{
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 70vh;
+}
+
+.introContent{
+    height: 100vh;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100vw;
+    padding: 2rem; */
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.hireBtn{
+    width: 5rem;
+    height: 1rem;
+    font-size: .4em;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 1rem 0;
+    padding: .75rem 2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media(max-width:1100px){
+    #intro{
+        width: 1080px;
+    }
+   
+  }
+  
+@media(max-width:800px){
+    #intro{
+        width: 820px;
+    }
+    
+  }
+  
+@media(max-width:650px){
+    #intro{
+        width: 650px;
+        /* background-color: red; */
+
+    }
+    /* .workDesc{
+        width: 75%;
+    } */
+    
+  } 
+ @media(max-width:426px){
+    #intro{
+        width: 620px;
+        /* background-color: red; */
+        
+    }   
+  }
+  @media(max-width:376px){
+    #intro{
+        width: 560px;
+        /* background-color: red; */
+        
+    }   
+  }
+/*
+@media  (max-width:480px) {
+    #intro{
+        width: 450px;
+    }
+ .hackerBg{
+    right: -20vw;
+ }    
+
+} */

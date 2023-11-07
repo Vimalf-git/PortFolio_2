@@ -1,0 +1,254 @@
+#works {
+    /* margin: 0 auto; */
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    /* max-width: 60rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0 1rem; */
+    /* background-color: aqua; */
+}
+
+.workTittle {
+    /* margin: 1rem 0; */
+    font-size: 3rem;
+    /* background-color: red; */
+
+}
+
+.workDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    /* background-color: blue; */
+}
+
+.worksImgs {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* margin: 1rem 0; */
+    /* width: 100vw; */
+    /* max-width: 55rem; */
+    /* background-color: chartreuse; */
+}
+
+.workimg {
+    margin: 0.5rem;
+    object-fit: cover;
+    height: 15rem;
+}
+
+.projectBox {
+    /* margin-top: 2rem; */
+    width: 50rem;
+    height: 12rem;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+}
+
+.imgBox {
+    width: 40%;
+    /* height: 100%; */
+    /* position: absolute; */
+    object-fit: cover;
+    /* background-color: red; */
+    /* margin-top: 1rem; */
+
+    /* height: 100%; */
+}
+
+.styleCross {
+    /* margin-top: -15px; */
+    transform: translateX(147%) rotate(180deg);
+    border-left: 130px solid rgb(50, 50, 50);
+    border-top: 192px solid transparent;
+    /* height: 1px; */
+    position: absolute;
+}
+
+.conBox {
+    /* background-color: aqua; */
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.projectTittle {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.projectDesc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 300;
+    /* background-color: blue; */
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 30%;
+    height: 3rem;
+    /* padding: 3rem; */
+    background-color: #ffff;
+    border-radius: 1rem;
+    border: none;
+    /* color: #ffff; */
+    background-color: #ffff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@media(max-width:1100px) {
+    #works {
+        width: 1100px;
+    }
+
+}
+
+@media(max-width:800px) {
+    #works {
+        width: 850px;
+    }
+    .projectBox{
+        width: 40rem;
+        height: 14rem;
+    }
+    .styleCross {
+        /* margin-top: -15px; */
+        transform: translateX(97.1%) translateY(-.1%) rotate(180deg);
+        border-left: 130px solid rgb(50, 50, 50);
+        border-top: 224.5px solid transparent;
+        /* height: 1px; */
+        position: absolute;
+    }
+    
+}
+
+@media(max-width:650px) {
+    #works {
+        width: 650px;
+    }
+
+    .workDesc {
+        width: 75%;
+    }
+
+    .workimg {
+        height: 12rem;
+    }
+    .projectBox {
+        /* margin-top: 2rem; */
+        width: 20rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(50, 50, 50); */
+    }
+
+    .imgBox {
+        width: 100%;
+        height: 10rem;
+        /* height: 100%; */
+        /* position: absolute; */
+        object-fit: cover;
+        background-color: red;
+        /* margin-top: 1rem; */
+    
+        /* height: 100%; */
+    }
+    .conBox {
+        width: 100%;
+        height: 15rem;
+    }
+    .styleCross {
+        /* margin-top: -15px; */
+        transform: translateX(1%) translateY(-20.1%) rotate(270deg);
+        border-left: 50px solid rgb(50, 50, 50);
+        border-top: 320px solid transparent;
+        height: 0;
+        width: 0;
+        /* position: absolute; */
+        /* bottom: -5rem; */
+    }
+}
+
+@media(max-width:400px) {
+    #works {
+        width: 590px;
+    }
+
+    .workimg {
+        height: 10rem;
+    }
+    .projectBox {
+        /* margin-top: 2rem; */
+        width: 20rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(50, 50, 50); */
+    }
+
+    .imgBox {
+        width: 100%;
+        height: 10rem;
+        /* height: 100%; */
+        /* position: absolute; */
+        object-fit: cover;
+        background-color: red;
+        /* margin-top: 1rem; */
+    
+        /* height: 100%; */
+    }
+    .conBox {
+        width: 100%;
+        height: 15rem;
+    }
+    .styleCross {
+        /* margin-top: -15px; */
+        transform: translateX(1.4%) translateY(-20%) rotate(270deg);
+        border-left: 50px solid rgb(50, 50, 50);
+        border-top: 320px solid transparent;
+        height: 0;
+        width: 0;
+        /* position: absolute; */
+        /* bottom: -5rem; */
+    }
+}
+
+
+/* @media(max-width:585px){
+
+    .workimg{
+        height: 35vw;
+    }
+}
+@media(max-width:450px){
+    #works{
+        width: 495px;
+    }
+  } */

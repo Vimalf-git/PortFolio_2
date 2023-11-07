@@ -1,0 +1,83 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactDesc{
+    width: 75%;
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm{
+     width: 60%;
+     margin: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.name,.email,.msg{
+    font-size: medium;
+    width: 80%;
+    max-width: 40rem;
+    margin: 0.5em;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(40, 40, 40);
+}
+.submitBtn{
+    background-color: #ffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 3.5rem;
+    margin: 2rem ;
+}
+@media(max-width:1100px){
+    #contactPage{
+        width: 1100px;
+        /* background-color: aqua; */
+    }
+    .contactForm{
+      margin: 2rem 8rem;
+
+    }
+  }
+@media(max-width:800px){
+    #contactPage{
+        width: 850px;
+    }
+    .contactForm{
+      margin: 2rem 8rem;
+
+    }
+  }
+@media(max-width:650px){
+    #contactPage{
+        width: 650px;
+    }
+    .contactForm{
+      margin: 2rem 8rem;
+
+    }
+  }
+@media(max-width:390px){
+    #contactPage{
+        width: 590px;
+    }
+    .contactForm{
+      margin: 2rem 8rem;
+
+    }
+  }
