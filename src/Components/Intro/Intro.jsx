@@ -4,7 +4,7 @@ import hackerimg from '../../assets/hacker.jpeg'
 import resume from '../../assets/Resume/VimalRaj.pdf'
 import { Typewriter } from 'react-simple-typewriter'
 function Intro() {
-    const tech = ["Web Developer", "ReactJS Developer", "NodeJS Developer", "Java Developer"]
+    const tech = ["FullStack Devloper","Web Developer", "ReactJS Developer", "NodeJS Developer", "Java Developer"]
     return (
         <section id='intro'>
             <div className='introContent'>

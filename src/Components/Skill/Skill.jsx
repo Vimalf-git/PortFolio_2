@@ -51,14 +51,14 @@ function Skill() {
             name: 'Node JS',
             logo: nodejs
         }, {
-            name: 'Expressjs',
+            name: 'Express JS',
             logo: express
         },
         {
             name: 'Java',
             logo: java
         }, {
-            name: 'springBoot',
+            name: 'SpringBoot',
             logo: springBoot
         }, {
             name: 'Material-UI',
