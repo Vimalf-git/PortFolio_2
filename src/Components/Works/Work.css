@@ -76,7 +76,7 @@
 .conBox {
     /* background-color: aqua; */
     width: 60%;
-
+    height: 10rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -90,7 +90,7 @@
 }
 
 .projectDesc {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +98,10 @@
     justify-content: center;
     font-size: small;
     font-weight: 300;
-    /* background-color: blue; */
+    /* overflow-y:scroll; */
+    font-size: 1rem;
+    /* background-color: #ffff; */
+    /* color: rgb(50, 50, 50); */
 }
 
 .cardBtn {

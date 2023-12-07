@@ -5,9 +5,16 @@ import Dice from '../../assets/Dice.jpg'
 import API from '../../assets/API.png'
 import DashBoardReact from '../../assets/ReusableReact.png'
 import travel from '../../assets/travel.avif'
+import inventory from '../../assets/projectimg/inventory.png'
 function Work() {
     const ProjectData = [
         {
+            projectTittle: 'Inventory-app',
+            img: inventory,
+            desc: 'This application maintain store data and sale list .User can read and update their data',
+            domain: "https://eco-inventoryapp.netlify.app/",
+            action:'Vist'
+        },{
             projectTittle: 'TravelBooking-UI',
             img: travel,
             desc: 'user can able to book their travel place Using Html&CSS',

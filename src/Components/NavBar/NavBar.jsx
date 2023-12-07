@@ -5,9 +5,11 @@ function NavBar() {
   return (
     <nav className='navbar'>
         <div className='logo'><h1>VR</h1></div>
+        
         <div className='menu'>
            <Link to='intro' spy={true} smooth={true}className='menuListItem'>Home</Link>
-           <Link to='skill' smooth={true} offset={-40} className='menuListItem'>About</Link>
+           <Link to='about' smooth={true} offset={-40} className='menuListItem'>About</Link>
+           <Link to='skill' smooth={true} offset={-40} className='menuListItem'>Skill</Link>
            <Link to='works' smooth={true} offset={-40} className='menuListItem'>Projects</Link>
         </div>
         <div>

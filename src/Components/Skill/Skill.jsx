@@ -1,5 +1,20 @@
 import React from 'react'
 import './Skill.css'
+import html from '../../assets/skillIcons/html.png'
+import css from '../../assets/skillIcons/css.png'
+import JavaScript from '../../assets/skillIcons/JS.png'
+import bootstrap from '../../assets/skillIcons/bootstrap.png'
+import reactjs from '../../assets/skillIcons/react.png'
+import redux from '../../assets/skillIcons/redux.png'
+import nodejs from '../../assets/skillIcons/nodejs.png'
+import express from '../../assets/skillIcons/Expressjs.png'
+import springBoot from '../../assets/skillIcons/springboot.png'
+import java from '../../assets/skillIcons/java.jpg'
+import mui from '../../assets/skillIcons/MUI.png'
+import git from '../../assets/skillIcons/git.png'
+import postman from '../../assets/skillIcons/postman.png'
+import sql from '../../assets/skillIcons/sql.png'
+import mongodb from '../../assets/skillIcons/mongodb.png'
 function Skill() {
     const skillContent = [
         {
@@ -12,15 +27,65 @@ function Skill() {
             non-blocking end points with authentication using JWT`
         }
     ]
-
+    const skillsTech = [
+        {
+            name: 'HTML',
+            logo: html
+        }, {
+            name: 'CSS',
+            logo: css
+        },
+        {
+            name: 'JavaScript',
+            logo: JavaScript
+        }, {
+            name: 'BootStrap',
+            logo: bootstrap
+        }, {
+            name: 'React JS',
+            logo: reactjs
+        },{
+            name: 'Redux',
+            logo: redux
+        }, {
+            name: 'Node JS',
+            logo: nodejs
+        }, {
+            name: 'Expressjs',
+            logo: express
+        },
+        {
+            name: 'Java',
+            logo: java
+        }, {
+            name: 'springBoot',
+            logo: springBoot
+        }, {
+            name: 'Material-UI',
+            logo: mui
+        }, {
+            name: 'GIT',
+            logo: git
+        }, {
+            name: 'Postman',
+            logo: postman
+        }, {
+            name: 'MySQL',
+            logo: sql
+        }, {
+            name: 'MongoDB',
+            logo: mongodb
+        },
+    ]
     return (
-        <section id='skill'>
+        <>
+        <section id='about'>
             <span className='skillTittle'>What I do</span>
             <span className='skillDesc'>A passionate software developer To Design and Develop innovative solutions using the latest technologies
-that solve real life challenges and problems  </span>
+                that solve real life challenges and problems  </span>
             <div className='skillBars'>
-                {skillContent.map((e,i) => {
-                  return  <div className="skillBar" key={i}>
+                {skillContent.map((e, i) => {
+                    return <div className="skillBar" key={i}>
                         <div className="skillBarText">
                             <h1>{e.tittle}</h1>
                             <p>{e.content}</p>
@@ -28,8 +93,19 @@ that solve real life challenges and problems  </span>
                     </div>
                 })}
             </div>
+            </section>
+            <section id='skill'>
+            <h4 style={{ fontSize: '3rem' }}>Skills</h4>
+            <div className='techSec'>
+                {skillsTech.map((e, i) => {
+                    return <div className='teckStack'>
+                        <h3 style={{ color: 'rgb(50, 50, 50)' }}>{e.name}</h3>
+                        <img className='teckImg' src={e.logo} />
+                    </div>
+                })}
+            </div>
         </section>
-
+        </>
     )
 }
 

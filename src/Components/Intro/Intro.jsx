@@ -1,8 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import hackerimg from '../../assets/hacker.jpeg'
-import { Link } from 'react-scroll'
-import resume from '../../assets/Resume/VIMALRAJ SELVAM.pdf'
+import resume from '../../assets/Resume/VimalRaj.pdf'
 import { Typewriter } from 'react-simple-typewriter'
 function Intro() {
     const tech = ["Web Developer", "ReactJS Developer", "NodeJS Developer", "Java Developer"]

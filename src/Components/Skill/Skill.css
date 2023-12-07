@@ -8,7 +8,16 @@ align-items: center;
 text-align: center;
 margin: 0 auto;
 }
-
+#about{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    }
 .skillTittle{
     font-size: 3rem;
     font-weight: 600;
@@ -39,10 +48,34 @@ margin: 0 auto;
     font-size: .9rem;
     font-weight: 200;
 }
+.techSec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.teckStack{
+    width: 10rem;
+    height: 10rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
 
-
+}
+.teckImg{
+    width: 5rem;
+    height: 5rem;
+}
 @media(max-width:1100px){
     #skill{
+        width: 1100px;
+    }
+    #about{
         width: 1100px;
     }
     .skillBars{
@@ -54,6 +87,9 @@ margin: 0 auto;
     #skill{
         width: 845px;
     }
+    #about{
+        width: 845px;
+    }
     .skillBars{
         width: 44rem;
     }
@@ -63,7 +99,10 @@ margin: 0 auto;
  @media(max-width:426px){
     #skill{
         width: 650px;
-    }   
+    }  
+    #about{
+        width: 650px;
+    } 
     .skillBars{
         width: 25rem;
     }
@@ -72,7 +111,13 @@ margin: 0 auto;
     #skill{
         width: 580px;        
     }
+    #about{
+        width: 580px;
+    }
     .skillBars{
         width: 25rem;
     }   
+    /* .techSec{
+
+    } */
   }
