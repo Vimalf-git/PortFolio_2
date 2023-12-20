@@ -81,8 +81,8 @@ function Skill() {
         <>
         <section id='about'>
             <span className='skillTittle'>What I do</span>
-            <span className='skillDesc'>A passionate software developer To Design and Develop innovative solutions using the latest technologies
-                that solve real life challenges and problems  </span>
+            <p className='skillDesc'>A passionate software developer To Design and Develop innovative solutions using the latest technologies
+                that solve real life challenges and problems  </p>
             <div className='skillBars'>
                 {skillContent.map((e, i) => {
                     return <div className="skillBar" key={i}>

@@ -62,14 +62,21 @@
     #intro{
         width: 1080px;
     }
-   
+    .hackerBg{
+        right: 3vw;
+        /* top: 1vh; */
+        width: 20em;
+     }
   }
   
 @media(max-width:800px){
     #intro{
         width: 820px;
     }
-    
+    .hackerBg{
+        left: -1vw;
+        top: 14vh;
+     }
   }
   
 @media(max-width:650px){
@@ -78,6 +85,7 @@
         /* background-color: red; */
 
     }
+   
     /* .workDesc{
         width: 75%;
     } */
@@ -89,13 +97,21 @@
         /* background-color: red; */
         
     }   
+    .hackerBg{
+        left: -1vw;
+        top: 14vh;
+     }
   }
   @media(max-width:376px){
     #intro{
         width: 560px;
         /* background-color: red; */
         
-    }   
+    }       
+    .hackerBg{
+        right: 1vw;
+        top: 14vh;
+     }
   }
 /*
 @media  (max-width:480px) {
