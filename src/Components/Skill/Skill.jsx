@@ -15,18 +15,8 @@ import git from '../../assets/skillIcons/git.png'
 import postman from '../../assets/skillIcons/postman.png'
 import sql from '../../assets/skillIcons/sql.png'
 import mongodb from '../../assets/skillIcons/mongodb.png'
+
 function Skill() {
-    const skillContent = [
-        {
-            tittle: 'Web Developer',
-            content: `I'm responsible to develop more responsive design with re-usable component
-            and maintain the state without re-render `
-        }, {
-            tittle: 'Backend Developer',
-            content: `Application able to develope for any CURD operation with asynchronous 
-            non-blocking end points with authentication using JWT`
-        }
-    ]
     const skillsTech = [
         {
             name: 'HTML',
@@ -44,7 +34,7 @@ function Skill() {
         }, {
             name: 'React JS',
             logo: reactjs
-        },{
+        }, {
             name: 'Redux',
             logo: redux
         }, {
@@ -78,24 +68,8 @@ function Skill() {
         },
     ]
     return (
-        <>
-        <section id='about'>
-            <span className='skillTittle'>What I do</span>
-            <p className='skillDesc'>A passionate software developer To Design and Develop innovative solutions using the latest technologies
-                that solve real life challenges and problems  </p>
-            <div className='skillBars'>
-                {skillContent.map((e, i) => {
-                    return <div className="skillBar" key={i}>
-                        <div className="skillBarText">
-                            <h1>{e.tittle}</h1>
-                            <p>{e.content}</p>
-                        </div>
-                    </div>
-                })}
-            </div>
-            </section>
-            <section id='skill'>
-            <h4 style={{ fontSize: '3rem' }}>Skills</h4>
+        <section className='skillCom'>
+            <h4 style={{ fontSize: '2rem' }}>Skills</h4>
             <div className='techSec'>
                 {skillsTech.map((e, i) => {
                     return <div className='teckStack'>
@@ -105,7 +79,6 @@ function Skill() {
                 })}
             </div>
         </section>
-        </>
     )
 }
 

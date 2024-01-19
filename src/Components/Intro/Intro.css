@@ -3,29 +3,35 @@
     font-family: 'Poppins', sans-serif;
 }
 #intro{
-    height: calc(100vh - 5rem);
-    width: 100vw;
-    max-width: 75rem;
+    height:85vh;
+    width: 99%;
+    /* max-width: 75rem; */
     margin: 0% 1.25rem;
     position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
     /* background-color: aqua; */
 }
-.hackerBg{
+/* .hackerBg{
     position: absolute;
     top: 2rem;
     right: 5rem;
     z-index: -1;
     object-fit: cover;
     height: 70vh;
-}
+} */
 
 .introContent{
-    height: 100vh;
+    width: 80%;
+    height: 85vh;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
     /* width: 100vw;
     padding: 2rem; */
 
@@ -39,7 +45,7 @@
 }
 .introPara{
     font-size: medium;
-    font-weight: 200;
+    font-weight: 100;
     letter-spacing: 1px;
 }
 .hireBtn{
@@ -57,26 +63,36 @@
     border-radius: 1.5rem;
     cursor: pointer;
     text-decoration: none;
+    gap: .2em;
 }
-@media(max-width:1100px){
+
+/* @media(max-width:1100px){
     #intro{
-        width: 1080px;
+        width: 1100px;
+        background-color: aqua;
     }
-    .hackerBg{
-        right: 3vw;
-        /* top: 1vh; */
-        width: 20em;
-     }
-  }
+    /* .introName{
+        font-size: 30px;
+    }
+    .introContent{
+        font-size:20px;
+    }
+    .hello{
+        font-size: 25px;
+    }
+    .introPara{
+        font-size: 20px;
+    }
+    .hireBtn{
+        padding: 1em 3em;
+        font-size: 15px;
+    } */
+  /* } */ 
   
 @media(max-width:800px){
     #intro{
         width: 820px;
     }
-    .hackerBg{
-        left: -1vw;
-        top: 14vh;
-     }
   }
   
 @media(max-width:650px){
@@ -97,22 +113,36 @@
         /* background-color: red; */
         
     }   
-    .hackerBg{
-        left: -1vw;
-        top: 14vh;
-     }
+    
   }
   @media(max-width:376px){
     #intro{
         width: 560px;
-        /* background-color: red; */
-        
+        /* background-color: red;   */
     }       
-    .hackerBg{
-        right: 1vw;
-        top: 14vh;
-     }
+    
   }
+  @media(min-width:2300px){
+    #intro{
+        width: 3000px;
+        /* background-color: red; */
+    }
+    .introContent{
+        font-size:100px;
+    }
+    .hello{
+        font-size: 150px;
+    }
+    .introPara{
+        font-size: 70px;
+    }
+    .hireBtn{
+        padding: 1em 3em;
+    }
+    .dwnofLine{
+        font-size: 80px !important;
+    }
+}
 /*
 @media  (max-width:480px) {
     #intro{

@@ -1,7 +1,8 @@
 #works {
     /* margin: 0 auto; */
-    min-height: calc(100vh - 4rem);
+    /* min-height: calc(100vh - 4rem); */
     width: 100%;
+    height: auto;
     /* max-width: 60rem; */
     display: flex;
     flex-direction: column;
@@ -13,17 +14,14 @@
 }
 
 .workTittle {
-    /* margin: 1rem 0; */
     font-size: 3rem;
-    /* background-color: red; */
 
 }
 
 .workDesc {
     font-weight: 300;
     font-size: 1rem;
-    max-width: 45rem;
-    /* background-color: blue; */
+    /* max-width: 45rem; */
 }
 
 .worksImgs {
@@ -33,10 +31,6 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    /* margin: 1rem 0; */
-    /* width: 100vw; */
-    /* max-width: 55rem; */
-    /* background-color: chartreuse; */
 }
 
 .workimg {
@@ -46,7 +40,6 @@
 }
 
 .projectBox {
-    /* margin-top: 2rem; */
     width: 50rem;
     height: 12rem;
     display: flex;
@@ -55,38 +48,27 @@
 
 .imgBox {
     width: 40%;
-    /* height: 100%; */
-    /* position: absolute; */
     object-fit: cover;
-    /* background-color: red; */
-    /* margin-top: 1rem; */
-
-    /* height: 100%; */
 }
 
 .styleCross {
-    /* margin-top: -15px; */
     transform: translateX(147%) rotate(180deg);
     border-left: 130px solid rgb(50, 50, 50);
     border-top: 192px solid transparent;
-    /* height: 1px; */
     position: absolute;
 }
 
 .conBox {
-    /* background-color: aqua; */
     width: 60%;
     height: 10rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .projectTittle {
     width: 100%;
     height: auto;
-    /* background-color: red; */
 }
 
 .projectDesc {
@@ -98,10 +80,8 @@
     justify-content: center;
     font-size: small;
     font-weight: 300;
-    /* overflow-y:scroll; */
     font-size: 1rem;
-    /* background-color: #ffff; */
-    /* color: rgb(50, 50, 50); */
+
 }
 
 .cardBtn {
@@ -111,14 +91,19 @@
     text-decoration: none;
     width: 30%;
     height: 3rem;
-    /* padding: 3rem; */
     background-color: #ffff;
     border-radius: 1rem;
     border: none;
-    /* color: #ffff; */
     background-color: #ffff;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.visitCom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .2em;
 }
 
 @media(max-width:1100px) {
@@ -132,19 +117,19 @@
     #works {
         width: 850px;
     }
-    .projectBox{
+
+    .projectBox {
         width: 40rem;
         height: 14rem;
     }
+
     .styleCross {
-        /* margin-top: -15px; */
         transform: translateX(97.1%) translateY(-.1%) rotate(180deg);
         border-left: 130px solid rgb(50, 50, 50);
         border-top: 224.5px solid transparent;
-        /* height: 1px; */
         position: absolute;
     }
-    
+
 }
 
 @media(max-width:650px) {
@@ -159,41 +144,34 @@
     .workimg {
         height: 12rem;
     }
+
     .projectBox {
-        /* margin-top: 2rem; */
         width: 20rem;
         height: 25rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: rgb(50, 50, 50); */
     }
 
     .imgBox {
         width: 100%;
         height: 10rem;
-        /* height: 100%; */
-        /* position: absolute; */
         object-fit: cover;
         background-color: red;
-        /* margin-top: 1rem; */
-    
-        /* height: 100%; */
     }
+
     .conBox {
         width: 100%;
         height: 15rem;
     }
+
     .styleCross {
-        /* margin-top: -15px; */
         transform: translateX(1%) translateY(-20.1%) rotate(270deg);
         border-left: 50px solid rgb(50, 50, 50);
         border-top: 320px solid transparent;
         height: 0;
         width: 0;
-        /* position: absolute; */
-        /* bottom: -5rem; */
     }
 }
 
@@ -205,53 +183,68 @@
     .workimg {
         height: 10rem;
     }
+
     .projectBox {
-        /* margin-top: 2rem; */
         width: 20rem;
         height: 25rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: rgb(50, 50, 50); */
     }
 
     .imgBox {
         width: 100%;
         height: 10rem;
-        /* height: 100%; */
-        /* position: absolute; */
         object-fit: cover;
         background-color: red;
-        /* margin-top: 1rem; */
-    
-        /* height: 100%; */
     }
+
     .conBox {
         width: 100%;
         height: 15rem;
     }
+
     .styleCross {
-        /* margin-top: -15px; */
         transform: translateX(1.4%) translateY(-20%) rotate(270deg);
         border-left: 50px solid rgb(50, 50, 50);
         border-top: 320px solid transparent;
         height: 0;
         width: 0;
-        /* position: absolute; */
-        /* bottom: -5rem; */
     }
 }
 
+@media(min-width:2560px) {
+    #works {
+        width: 3000px;
+    }
 
-/* @media(max-width:585px){
-
-    .workimg{
-        height: 35vw;
+    .workDesc {
+        width: 80%;
+        font-size: 50px;
+    }
+    .worksImgs{
+        width: 80%;
+        display: flex;
+        gap: 8rem;
+    }
+    .projectBox{
+        width: 70em;
+        height: 25em;
+    }
+    .styleCross {
+        transform: translateX(245%) rotate(180deg);
+        border-left: 130px solid rgb(50, 50, 50);
+        border-top: 400px solid transparent;
+        position: absolute;
+    }
+    .conBox {
+        width: 70%;
+        height: 25rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
-@media(max-width:450px){
-    #works{
-        width: 495px;
-    }
-  } */
