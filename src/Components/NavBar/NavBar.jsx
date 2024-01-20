@@ -35,7 +35,7 @@ function NavBar() {
       <div className='hambugerIcon'>
         <span onClick={() => sethanmburger(prev => !prev)}>
           {hamburger ?
-            <Close style={{ color: 'black' }} /> : <MenuIcon />
+            <Close style={{ color: 'black',fontSize:'2.5rem' }} /> : <MenuIcon style={{fontSize:'2.5rem' }}  />
           }
         </span>
       </div>

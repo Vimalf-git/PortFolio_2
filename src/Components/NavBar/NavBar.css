@@ -94,7 +94,6 @@
   }
 
   .hambugerIcon {
-    /* visibility: visible !important; */
     display: block;
     position: relative;
     right: 3em;
@@ -171,12 +170,11 @@
   }
 }
 
-@media(max-width:400px) {
+@media(max-width:426px) {
   .navbar {
-    width: 590px;
+    width: 700px;
   }
 }
-
 @media(min-width:2560px) {
   .navbar {
     width: 3000px;
