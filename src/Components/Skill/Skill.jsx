@@ -54,7 +54,7 @@ function Skill() {
             name: 'Material-UI',
             logo: mui
         }, {
-            name: 'GIT',
+            name: 'GitHub',
             logo: git
         }, {
             name: 'Postman',
