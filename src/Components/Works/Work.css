@@ -1,27 +1,20 @@
 #works {
-    /* margin: 0 auto; */
-    /* min-height: calc(100vh - 4rem); */
     width: 100%;
     height: auto;
-    /* max-width: 60rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding: 0 1rem; */
-    /* background-color: aqua; */
 }
 
 .workTittle {
     font-size: 3rem;
-
 }
 
 .workDesc {
     font-weight: 300;
     font-size: 1rem;
-    /* max-width: 45rem; */
 }
 
 .worksImgs {
@@ -98,7 +91,14 @@
     cursor: pointer;
     font-size: 1rem;
 }
-
+.cardBtn:hover{
+    background-color: blue;
+    transition: .8s;
+}
+.cardBtn>a:hover{
+    color: #ffff !important;
+    transition: .8s;
+}
 .visitCom {
     display: flex;
     justify-content: space-around;
@@ -223,21 +223,25 @@
         width: 80%;
         font-size: 50px;
     }
-    .worksImgs{
+
+    .worksImgs {
         width: 80%;
         display: flex;
         gap: 8rem;
     }
-    .projectBox{
+
+    .projectBox {
         width: 70em;
         height: 25em;
     }
+
     .styleCross {
         transform: translateX(245%) rotate(180deg);
         border-left: 130px solid rgb(50, 50, 50);
         border-top: 400px solid transparent;
         position: absolute;
     }
+
     .conBox {
         width: 70%;
         height: 25rem;

@@ -3,7 +3,6 @@ import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
 import Intro from "./Components/Intro/Intro"
 import NavBar from "./Components/NavBar/NavBar"
-// import Skill from "./Components/Skill/About"
 import Skill from "./Components/Skill/Skill"
 import About from "./Components/About/About"
 import Work from "./Components/Works/Work"
@@ -22,13 +21,6 @@ function App() {
           <Route path="contact" element={<><NavBar/><Contact/></>}/>
         </Routes>
       </BrowserRouter>
-
-      {/* <NavBar /> */}
-      {/* <Skill />
-      <Work />
-      <Contact />
-      <Footer /> */}
-    {/* </div> */}
     </>
   )
 }

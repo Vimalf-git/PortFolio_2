@@ -7,7 +7,6 @@ import { GitHub, Mail } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import SendIcon from '@mui/icons-material/Send';
-import leetCodeIcon from '../../assets/contact/leetcode.png'
 function Contact() {
     const [emailId, setEmail] = useState("");
     const [subject, setSubject] = useState("");

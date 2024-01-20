@@ -1,6 +1,5 @@
 import React from 'react'
 import './Intro.css'
-import hackerimg from '../../assets/profilImg/vimalImg2.jpeg'
 import resume from '../../assets/Resume/VimalRaj.pdf'
 import { Typewriter } from 'react-simple-typewriter'
 import { DownloadForOffline } from '@mui/icons-material'
@@ -26,9 +25,6 @@ function Intro() {
                     creating<br /> visual appealing and user friendly websites.</p>
                 <a href={resume} target='_blank' download="Resume"
                     className='hireBtn'><DownloadForOffline className='dwnofLine'/>Resume</a>
-                {/* <div className='uimg'>
-                    <img src={hackerimg} className='hackerBg' />
-                </div> */}
             </div>
 
         </section>

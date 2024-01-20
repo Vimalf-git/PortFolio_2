@@ -5,9 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
     align-items: center;
-    /* gap: 1rem; */
 }
 .techSec{
     display: flex;
@@ -35,25 +33,21 @@
 @media(max-width:1100px){
     .skillCom{
         width: 1100px;
-        /* background-color: yellow; */
     }
 }
 @media(max-width:800px){
     .skillCom{
         width: 850px;
-        /* background-color: blue; */
     }
 }
 @media(max-width:600px){
     .skillCom{
         width: 700px;
-        /* background-color: aqua; */
     }
 }
 @media(max-width:400px){
     .skillCom{
         width: 590px;
-        /* background-color: red; */
     }
 }
 @media(min-width:2560px){

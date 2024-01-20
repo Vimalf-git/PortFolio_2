@@ -1,0 +1,4 @@
+{/* <NavLink to={'/home'} onClick={() => sethanmburger(prev => !prev)} >Home</NavLink>
+        <NavLink to={'/about'} onClick={() => sethanmburger(prev => !prev)}>About</NavLink>
+        <NavLink to={'/skill'} onClick={() => sethanmburger(prev => !prev)}>Skill</NavLink>
+        <NavLink to={'/project'} onClick={() => sethanmburger(prev => !prev)}>Projects</NavLink> */}

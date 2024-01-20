@@ -1,28 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
 }
-#intro{
-    height:85vh;
+
+#intro {
+    height: 85vh;
     width: 99%;
-    /* max-width: 75rem; */
     margin: 0% 1.25rem;
     position: relative;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* background-color: aqua; */
-}
-/* .hackerBg{
-    position: absolute;
-    top: 2rem;
-    right: 5rem;
-    z-index: -1;
-    object-fit: cover;
-    height: 70vh;
-} */
 
-.introContent{
+}
+
+.introContent {
     width: 80%;
     height: 85vh;
     font-size: 3rem;
@@ -31,24 +23,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
-    /* width: 100vw;
-    padding: 2rem; */
-
 }
-.hello{
+
+.hello {
     font-size: 1.75rem;
     font-weight: 100;
 }
-.introName{
+
+.introName {
     color: yellow;
 }
-.introPara{
+
+.introPara {
     font-size: medium;
     font-weight: 100;
     letter-spacing: 1px;
 }
-.hireBtn{
+
+.hireBtn {
     width: 5rem;
     height: 1rem;
     font-size: .4em;
@@ -65,91 +57,59 @@
     text-decoration: none;
     gap: .2em;
 }
-
-/* @media(max-width:1100px){
-    #intro{
-        width: 1100px;
-        background-color: aqua;
-    }
-    /* .introName{
-        font-size: 30px;
-    }
-    .introContent{
-        font-size:20px;
-    }
-    .hello{
-        font-size: 25px;
-    }
-    .introPara{
-        font-size: 20px;
-    }
-    .hireBtn{
-        padding: 1em 3em;
-        font-size: 15px;
-    } */
-  /* } */ 
-  
-@media(max-width:800px){
-    #intro{
+.hireBtn:hover{
+    background-color: blue;
+    color: #fff;
+    transition: .8s;
+}
+@media(max-width:800px) {
+    #intro {
         width: 820px;
     }
-  }
-  
-@media(max-width:650px){
-    #intro{
-        width: 650px;
-        /* background-color: red; */
+}
 
+@media(max-width:650px) {
+    #intro {
+        width: 650px;
     }
-   
-    /* .workDesc{
-        width: 75%;
-    } */
-    
-  } 
- @media(max-width:426px){
-    #intro{
+}
+
+@media(max-width:426px) {
+    #intro {
         width: 620px;
-        /* background-color: red; */
-        
-    }   
-    
-  }
-  @media(max-width:376px){
-    #intro{
+    }
+
+}
+
+@media(max-width:376px) {
+    #intro {
         width: 560px;
-        /* background-color: red;   */
-    }       
-    
-  }
-  @media(min-width:2300px){
-    #intro{
+    }
+
+}
+
+@media(min-width:2300px) {
+    #intro {
         width: 3000px;
-        /* background-color: red; */
     }
-    .introContent{
-        font-size:100px;
+
+    .introContent {
+        font-size: 100px;
     }
-    .hello{
+
+    .hello {
         font-size: 150px;
     }
-    .introPara{
+
+    .introPara {
         font-size: 70px;
     }
-    .hireBtn{
+
+    .hireBtn {
         padding: 1em 3em;
     }
-    .dwnofLine{
+
+    .dwnofLine {
         font-size: 80px !important;
     }
 }
-/*
-@media  (max-width:480px) {
-    #intro{
-        width: 450px;
-    }
- .hackerBg{
-    right: -20vw;
- }    
-
-} */

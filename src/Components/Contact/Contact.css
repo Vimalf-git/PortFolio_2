@@ -8,22 +8,13 @@
     align-items: center;
     justify-content: center;
 }
-/* .contactIcon{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 .contactIcon>a{
   display: flex;
   color: #ffff;
-  /* justify-content: center; */
   align-items: center;
   gap: 1rem;
   text-decoration: none;
   margin-bottom:.5em;
-  /* background-color: aqua; */
 }
 .contactIcon>a:hover{
 color: yellow;
@@ -73,11 +64,9 @@ background-color: yellow;
 @media(max-width:1100px){
     #contactPage{
         width: 1100px;
-        /* background-color: aqua; */
     }
     .contactForm{
       margin: 2rem 8rem;
-
     }
   }
 @media(max-width:800px){
@@ -86,7 +75,6 @@ background-color: yellow;
     }
     .contactForm{
       margin: 2rem 8rem;
-
     }
   }
 @media(max-width:650px){
@@ -95,7 +83,6 @@ background-color: yellow;
     }
     .contactForm{
       margin: 2rem 8rem;
-
     }
   }
 @media(max-width:390px){
