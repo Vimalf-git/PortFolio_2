@@ -1,11 +1,12 @@
 import React from 'react'
 import './Work.css'
-import Food from '../../assets/Food.jpg'
-import Dice from '../../assets/Dice.jpg'
-import API from '../../assets/API.png'
-import DashBoardReact from '../../assets/ReusableReact.png'
-import travel from '../../assets/travel.avif'
+import Food from '../../assets/projectimg/Food.jpg'
+import Dice from '../../assets/projectimg/Dice.jpg'
+import API from '../../assets/projectimg/API.png'
+import DashBoardReact from '../../assets/projectimg/ReusableReact.png'
+import travel from '../../assets/projectimg/travel.avif'
 import inventory from '../../assets/projectimg/inventory.png'
+import ScribleHere from '../../assets/projectimg/ScribleApp.png'
 import { Language } from '@mui/icons-material'
 function Work() {
     const ProjectData = [
@@ -15,7 +16,16 @@ function Work() {
             desc: 'This application maintain store data and sale list .User can read and update their data',
             domain: "https://eco-inventoryapp.netlify.app/",
             action: 'Vist'
-        }, {
+        },
+        {
+            projectTittle: 'Scribe-Here',
+            img: ScribleHere,
+            desc: 'Scribble your thoughts here',
+            domain: 'https://scribblehere.netlify.app/',
+            action: 'Vist'
+
+        },
+        {
             projectTittle: 'TravelBooking-UI',
             img: travel,
             desc: 'user can able to book their travel place Using Html&CSS',
