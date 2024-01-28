@@ -18,6 +18,14 @@ function Work() {
             action: 'Vist'
         },
         {
+            projectTittle: 'Blog-app',
+            img: ScribleHere,
+            desc: ' Blog is an important social networking tool included in a web application, to facilitate interaction and collaboration with the users',
+            domain: 'https://logarram.netlify.app/login',
+            action: 'Vist'
+
+        },
+        {
             projectTittle: 'Scribe-Here',
             img: ScribleHere,
             desc: 'Scribble your thoughts here',
