@@ -53,20 +53,22 @@
 
 .conBox {
     width: 60%;
-    height: 10rem;
+    /* height: 10rem; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    background-color: red;
 }
 
 .projectTittle {
     width: 100%;
     height: auto;
+    background-color: blue;
 }
 
 .projectDesc {
-    width: 80%;
-    height: auto;
+    width: 90%;
+    height:20rem;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -74,7 +76,8 @@
     font-size: small;
     font-weight: 300;
     font-size: 1rem;
-
+    text-align: justify;
+background-color: aqua;
 }
 
 .cardBtn {
@@ -100,12 +103,92 @@
     transition: .8s;
 }
 .visitCom {
+    width: 8rem;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
     gap: .2em;
+    background-color: rgb(56, 56, 198);
+    border-radius: 5px;
+    color: #fff !important;
 }
 
+/*  */
+.cardParent{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.postCard{
+    width: 18rem;
+    height: 26rem;
+    background-color: #fff;
+    box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, .1);
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+.postImgCon{
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+
+}
+.postImg{
+    width: 16rem;
+    height: 10rem;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+}
+.postTittle{
+    width: 100%;
+    height: 1.5rem;
+    /* background-color: aqua; */
+}
+.postTittle>h4{
+font-size: 1.1rem;
+margin-left: 1rem;
+font-weight: 800;
+
+/* padding: .5rem; */
+}
+.postDes{
+    width: 100%;
+    height: 6rem;
+    /* background-color: red; */
+}
+.postDes>p{
+    font-size: .8rem;
+    margin-left: 1rem;
+
+    /* padding: .5rem; */
+}
+.cardFooter{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Feedscardpic{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    /* aspect-ratio: 1/1; */
+    /* overflow: hidden; */
+    margin-left: 1rem;
+    /* background-color: aqua; */
+    /* object-fit: fill; */
+    display: flex;
+    align-items: center;
+
+}
 @media(max-width:1100px) {
     #works {
         width: 1100px;
