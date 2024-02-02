@@ -8,6 +8,7 @@ import travel from '../../assets/projectimg/travel.avif'
 import inventory from '../../assets/projectimg/inventory.png'
 import ScribleHere from '../../assets/projectimg/ScribleApp.png'
 import Blog from '../../assets/projectimg/Blog.png'
+import food from '../../assets/projectimg/Food.jpg'
 import { GitHub, Language } from '@mui/icons-material'
 function Work() {
     const ProjectData = [
@@ -27,6 +28,14 @@ function Work() {
             action: 'Vist',
             gitUrl:'https://github.com/Vimalf-git/BlogAppFE'
 
+        },{
+            projectTittle: 'FoodOrder-App',
+            img: food,
+            desc: 'Food delivery apps are a type of restaurant delivery/ takeout software that connects consumers with local restaurants.',
+            domain: 'https://or-hotorder.netlify.app/',
+            action: 'Vist',
+            gitUrl:'https://github.com/Vimalf-git/FoodDeliveryFE'
+            
         },
         {
             projectTittle: 'Scribe-Here',
@@ -86,20 +95,6 @@ function Work() {
             <div className='cardParent'>
                 {ProjectData.map((e, i) => {
                     return <>
-                        {/* <div className='projectBox' key={i}>
-                            <>
-                                <img className='imgBox' src={e.img} />
-                                <div className='styleCross'></div>
-                            </>
-
-                            <div className='conBox'>
-                                <h3 className='projectTittle'>{e.projectTittle}</h3>
-                                <p className='projectDesc'>{e.desc}</p>
-                                <div className='cardBtn'>
-                                    <a target='_blank' className='visitCom' style={{ textDecoration: 'none', color: 'black', fontSize: '1.5rem' }} href={e.domain}><Language /> VISIT</a>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className='postCard' key={i} >
                             <div className='postImgCon' >
                                 <img className='postImg' src={e.img} />
@@ -113,18 +108,6 @@ function Work() {
                             <div className='cardFooter'>
                             <a target='_blank' className='visitCom' style={{ textDecoration: 'none', color: 'black', fontSize: '1.5rem' }} href={e.domain}><Language /> Visit</a>
                             <a target='_blank' className='visitCom' style={{ textDecoration: 'none', color: 'black', fontSize: '1.5rem' }} href={e.gitUrl}><GitHub /> Source</a>
-
-                                {/* <div className='footerProfile'>
-                                    <div className='Feedscardpic'>
-                                    </div>
-                                    <div>
-                                        <p className='postcreatedby'>{e.username}</p>
-                                    </div>
-                                </div> 
-
-                                <div className='category'>
-                                    <Link>{e.category ? e.category.length > 9 ? e.category.slice(0, 5) + '...' : e.category : ''}</Link>
-                                </div> */}
                             </div>
                         </div>
                     </>})}
