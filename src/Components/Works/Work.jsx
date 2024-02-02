@@ -8,7 +8,7 @@ import travel from '../../assets/projectimg/travel.avif'
 import inventory from '../../assets/projectimg/inventory.png'
 import ScribleHere from '../../assets/projectimg/ScribleApp.png'
 import Blog from '../../assets/projectimg/Blog.png'
-import food from '../../assets/projectimg/Food.jpg'
+import food from '../../assets/projectimg/foodOrderApp.png'
 import { GitHub, Language } from '@mui/icons-material'
 function Work() {
     const ProjectData = [
@@ -78,15 +78,7 @@ function Work() {
             action: 'Vist',
             gitUrl:'https://github.com/Vimalf-git/ApiFetch'
 
-        }, {
-            projectTittle: 'DashBoardDesign',
-            img: DashBoardReact,
-            desc: 'Using Reacts and Reuseable component',
-            domain: "https://dashboardcomponent.netlify.app/",
-            action: 'Vist',
-            gitUrl:'https://github.com/Vimalf-git/DashBoard'
-
-        },
+        }
     ]
     return (
         <section id='works'>
