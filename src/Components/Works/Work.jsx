@@ -38,47 +38,47 @@ function Work() {
             
         },
         {
-            projectTittle: 'Scribe-Here',
+            projectTittle: 'Notes-App',
             img: ScribleHere,
-            desc: 'Scribble your thoughts here',
+            desc: 'Store all notes and important information digitally, usually in a cloud-based storage system',
             domain: 'https://scribblehere.netlify.app/',
             action: 'Vist',
             gitUrl:'https://github.com/Vimalf-git/scribbleApp'
 
-        },
-        {
-            projectTittle: 'TravelBooking-UI',
-            img: travel,
-            desc: 'user can able to book their travel place Using Html&CSS',
-            domain: "https://travelbookingapp.netlify.app/",
-            action: 'Vist',
-            gitUrl:'https://github.com/Vimalf-git/TravelLanding'
-
-        }, {
-            projectTittle: 'FoodOrder-UI',
-            img: Food,
-            desc: 'User able order fodd through On-line Using Html&CSS',
-            domain: "https://restaurantfood-order.netlify.app/",
-            action: 'Vist',
-            gitUrl:'https://github.com/Vimalf-git/Restaurant-landing'
-
-        }, {
-            projectTittle: 'DiceGame',
-            img: Dice,
-            desc: 'On-line Dice game Using DOM manupulation',
-            domain: "https://onlinedicegame.netlify.app/",
-            action: 'Vist',
-            gitUrl:'https://github.com/Vimalf-git/DiceGame'
-
-        }, {
-            projectTittle: 'Fetch-API',
-            img: API,
-            desc: 'Data fetch from Api Using Async & Await',
-            domain: "https://fetchdatausingasync-await.netlify.app/",
-            action: 'Vist',
-            gitUrl:'https://github.com/Vimalf-git/ApiFetch'
-
         }
+        // {
+        //     projectTittle: 'TravelBooking-UI',
+        //     img: travel,
+        //     desc: 'user can able to book their travel place Using Html&CSS',
+        //     domain: "https://travelbookingapp.netlify.app/",
+        //     action: 'Vist',
+        //     gitUrl:'https://github.com/Vimalf-git/TravelLanding'
+
+        // }, {
+        //     projectTittle: 'FoodOrder-UI',
+        //     img: Food,
+        //     desc: 'User able order fodd through On-line Using Html&CSS',
+        //     domain: "https://restaurantfood-order.netlify.app/",
+        //     action: 'Vist',
+        //     gitUrl:'https://github.com/Vimalf-git/Restaurant-landing'
+
+        // }, {
+        //     projectTittle: 'DiceGame',
+        //     img: Dice,
+        //     desc: 'On-line Dice game Using DOM manupulation',
+        //     domain: "https://onlinedicegame.netlify.app/",
+        //     action: 'Vist',
+        //     gitUrl:'https://github.com/Vimalf-git/DiceGame'
+
+        // }, {
+        //     projectTittle: 'Fetch-API',
+        //     img: API,
+        //     desc: 'Data fetch from Api Using Async & Await',
+        //     domain: "https://fetchdatausingasync-await.netlify.app/",
+        //     action: 'Vist',
+        //     gitUrl:'https://github.com/Vimalf-git/ApiFetch'
+
+        // }
     ]
     return (
         <section id='works'>
@@ -96,6 +96,12 @@ function Work() {
                             </div>
                             <div className='postDes'>
                                 <p>{e.desc}</p>
+                            </div>
+                            <div className='techStack'>
+                                <h3>Tech Stack</h3>
+                                <p>
+                                    ReactJs, CSS, NodeJS, ExpressJS, MongoDB, gitHub
+                                </p>
                             </div>
                             <div className='cardFooter'>
                             <a target='_blank' className='visitCom' style={{ textDecoration: 'none', color: 'black', fontSize: '1.5rem' }} href={e.domain}><Language /> Visit</a>
