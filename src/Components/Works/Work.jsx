@@ -24,7 +24,7 @@ function Work() {
             projectTittle: 'Blog-app',
             img: Blog,
             desc: ' Blog is an important social networking tool included in a web application, to facilitate interaction and collaboration with the users',
-            domain: 'https://logarram.netlify.app/login',
+            domain: 'https://logarram.netlify.app/',
             action: 'Vist',
             gitUrl:'https://github.com/Vimalf-git/BlogAppFE'
 
